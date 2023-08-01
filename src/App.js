@@ -1,7 +1,12 @@
 import "./App.css";
+import First from "./Components/UseState/First";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <First />
+    </div>
+  );
 }
 
 export default App;
