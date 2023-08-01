@@ -1,10 +1,13 @@
 import "./App.css";
-import First from "./Components/UseState/First";
+import FirstState from "./Components/UseState/FirstState";
+import SecondState from "./Components/UseState/SecondState";
 
 function App() {
   return (
     <div className="App">
-      <First />
+      <FirstState />
+      <hr />
+      <SecondState />
     </div>
   );
 }

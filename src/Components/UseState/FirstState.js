@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const First = () => {
+const FirstState = () => {
   const [name, setName] = useState("Pankaj");
   function changeName() {
     setName("Prachi");
@@ -13,4 +13,4 @@ const First = () => {
   );
 };
 
-export default First;
+export default FirstState;
